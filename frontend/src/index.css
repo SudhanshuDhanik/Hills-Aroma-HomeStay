@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body text-brand-900 bg-sand-50;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}

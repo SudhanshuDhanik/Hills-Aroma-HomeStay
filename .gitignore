@@ -1,0 +1,18 @@
+# Backend
+backend/target/
+backend/uploads/
+backend/.idea/
+backend/*.iml
+backend/application-local.properties
+backend/*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# General
+.DS_Store
+*.log
+.vscode/
