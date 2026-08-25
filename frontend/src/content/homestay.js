@@ -24,8 +24,8 @@ export const homestay = {
   distanceFromAlmoraKm: 25,
   distanceFromJageshwarKm: 11,
 
-  phone: '9876543210',       // e.g. '+919999999999'
-  whatsapp: '9876543210',  // digits only, no +, e.g. '919999999999'
+  phone: '8439244255',       // e.g. '+919999999999'
+  whatsapp: '8439244255',  // digits only, no +, e.g. '919999999999'
   email: 'hillsaromahomestay@gmail.com',
 
   // Paste the real Google Maps "Embed a map" iframe src URL here once available.
@@ -33,7 +33,11 @@ export const homestay = {
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14203507.743027288!2d60.255593750000024!3d29.642812500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0c9000c5f47d5%3A0x4283941bf04f3bee!2sHills%20Aroma%20homestay!5e0!3m2!1sen!2sin!4v1787203745522!5m2!1sen!2sin',
 
   heroImage: '/images/hero/Hero.jpeg',
-  logo: null,
+  // heroImage2: '/images/hero/Hero2.jpeg',
+  logo: '/images/logo/logo.jpeg',
+
+
+  kumaoniFoodImage: '/images/food/KumaoniFood.jpeg',
 
   amenities: [
     { name: 'Parking', detail: 'Available on-site' },

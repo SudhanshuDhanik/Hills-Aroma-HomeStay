@@ -3,6 +3,7 @@ import LocationSection from '../components/LocationSection'
 import NearbyPlaceCard from '../components/NearbyPlaceCard'
 import { homestay } from '../content/homestay'
 import { nearbyPlaces } from '../content/nearbyPlaces'
+import { Link } from 'react-router-dom'
 
 export default function Location() {
   return (
@@ -25,6 +26,7 @@ export default function Location() {
           </div>
         </div>
       </section>
+      
     </>
   )
 }

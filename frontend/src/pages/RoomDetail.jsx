@@ -30,7 +30,7 @@ export default function RoomDetail() {
             <p>Pricing:</p>
             <ul className="list-disc list-inside">
               <li>Weekday: ₹{room.pricing.weekday}(2 guests)</li>
-              <li>Weekend: ₹{room.pricing.weekend}(2 guests)</li>
+              <li>Sat & Sun: ₹{room.pricing.sat_sun}(2 guests)</li>
             </ul>
           </div>
           {room.facilities?.length > 0 && (

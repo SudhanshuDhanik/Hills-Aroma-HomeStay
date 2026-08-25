@@ -7,6 +7,7 @@ import { rooms } from '../content/rooms'
 import Gallery from './Gallery'
 import Location from './Location'
 import Contact from './Contact'
+import SpecialAttraction from './SpecailAttraction'
 
 
 export default function Home() {
@@ -20,8 +21,13 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative bg-brand-100">
-        <div className="aspect-[16/9] md:aspect-[21/9] bg-brand-200 overflow-hidden">
-          <img src={homestay.heroImage} alt={homestay.name} className="w-full h-full object-cover" />
+
+        <div className="relative w-full h-[550px] md:h-[650px] overflow-hidden">
+          <img
+            src={homestay.heroImage}
+            alt={`${homestay.name} exterior and surroundings`}
+           className="absolute inset-0 w-full h-full object-cover object-[center_25%]"
+          />
         </div>
         <div className="max-w-6xl mx-auto px-4 py-10 text-center">
           <h1 className="text-3xl md:text-5xl font-semibold text-brand-900">{homestay.name}</h1>
@@ -63,6 +69,7 @@ export default function Home() {
           {rooms.map((room) => <RoomCard key={room.id} room={room} />)}
         </div>
       </section>
+      <SpecialAttraction></SpecialAttraction>
       <Gallery></Gallery>
       <Location></Location>
       <Contact></Contact>

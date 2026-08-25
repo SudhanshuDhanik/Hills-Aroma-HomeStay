@@ -3,6 +3,8 @@ import SEO from '../components/SEO'
 import WhatsAppButton from '../components/WhatsAppButton'
 import { homestay } from '../content/homestay'
 import { rooms } from '../content/rooms'
+import { Link } from 'react-router-dom'
+
 
 export default function Contact() {
   return (
@@ -30,6 +32,7 @@ export default function Contact() {
         </div>
 
         {/* <EnquiryForm roomId={rooms[0]?.id} /> */}
+
       </section>
     </>
   )

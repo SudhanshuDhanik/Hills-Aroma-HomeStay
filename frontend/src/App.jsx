@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route,Link } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -21,9 +21,18 @@ import ProtectedRoute from './admin/ProtectedRoute'
 
 function PublicLayout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-x-clip">
+      
       <Navbar />
       <main className="flex-1">{children}</main>
+      <div className="flex justify-center py-10">
+      <Link
+        to="/"
+        className="bg-brand-700 hover:bg-brand-800 text-white font-medium px-6 py-3 rounded-full transition-colors"
+      >
+         Back to Home
+      </Link>
+      </div>
       <Footer />
     </div>
   )
@@ -57,6 +66,7 @@ export default function App() {
         <Route path="blocked-dates" element={<AdminBlockedDates />} />
         <Route path="pricing" element={<AdminPricing />} />
       </Route>
+       
     </Routes>
   )
 }

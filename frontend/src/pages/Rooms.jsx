@@ -1,6 +1,7 @@
 import SEO from '../components/SEO'
 import RoomCard from '../components/RoomCard'
 import { rooms } from '../content/rooms'
+import { Link } from 'react-router-dom'
 
 export default function Rooms() {
   return (
@@ -16,6 +17,7 @@ export default function Rooms() {
           {rooms.map((room) => <RoomCard key={room.id} room={room} />)}
         </div>
       </section>
+    
     </>
   )
 }

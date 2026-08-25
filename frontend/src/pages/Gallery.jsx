@@ -1,6 +1,7 @@
 import SEO from '../components/SEO'
 import GalleryGrid from '../components/GalleryGrid'
 import { homestay } from '../content/homestay'
+import { Link } from 'react-router-dom'
 
 export default function Gallery() {
   const images = [
@@ -9,6 +10,7 @@ export default function Gallery() {
     { url: '/images/gallery/roomsInterior.jpeg', alt: 'replace this image with a Double Bed with View room photo' },
     { url: '/images/gallery/Room1.jpeg', alt: 'replace this image with a Double Bed room photo' },
     { url: '/images/gallery/LandscapeView.jpeg', alt: 'replace this image with a Double Bed with View room photo' },
+    { url: '/images/gallery/front.jpeg', alt: 'replace this image with a Double Bed room photo' },
     { url: '/images/gallery/DeluxeRoom.jpeg', alt: 'replace this image with a Double Bed with View room photo' },
     { url: '/images/gallery/BathroomInterior.jpeg', alt: 'replace this image with a Double Bed room photo' },
     { url: '/images/gallery/Bathroom.jpeg', alt: 'replace this image with a Double Bed room photo' },
@@ -25,6 +27,7 @@ export default function Gallery() {
         <h1 className="text-3xl font-semibold mb-6">Gallery</h1>
         <GalleryGrid images={images} />
       </section>
+      
     </>
   )
 }

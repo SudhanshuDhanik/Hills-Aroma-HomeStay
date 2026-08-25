@@ -26,8 +26,8 @@ export const rooms = [
     ],
     description: 'Additional mattress can be provided for extra guests. Availability and charges may vary. Please contact the property first to confirm.',
     pricing: {
-      weekday: 1500,
-      weekend: 2000,
+      weekday: 1800,
+      sat_sun: 2000,
       extraGuest: 'Mattress available, please contact the property first to confirm availability and charges'
     },
   },
@@ -53,8 +53,8 @@ export const rooms = [
     ],
     description: 'Additional mattress can be provided for extra guests. Availability and charges may vary. Please contact the property first to confirm.',
        pricing: {
-      weekday: 1500,
-      weekend: 2000,
+     weekday: 2000,
+      sat_sun: 2500,
     },
   },
 

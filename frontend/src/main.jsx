@@ -9,7 +9,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
-        <App />
+       <div className="min-h-screen overflow-x-hidden">
+  <App />
+</div>
       </BrowserRouter>
     </HelmetProvider>
   </React.StrictMode>,
