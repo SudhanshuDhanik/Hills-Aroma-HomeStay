@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative bg-brand-100">
-<div className="relative w-full h-[300px] sm:h-[400px] md:h-[550px] overflow-hidden">
+<div className="relative w-full h-[300px] sm:h-[400px] md:h-[800px] overflow-hidden">
   <img
     src={homestay.heroImage}
     alt={`${homestay.name} exterior and surroundings`}
