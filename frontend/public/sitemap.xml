@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://www.example-homestay.com/</loc>
-    <priority>1.0</priority>
+    <loc>https://hillsaromahomestay.netlify.app/</loc>
   </url>
+
   <url>
-    <loc>https://www.example-homestay.com/about</loc>
-    <priority>0.6</priority>
+    <loc>https://hillsaromahomestay.netlify.app/about</loc>
   </url>
+
   <url>
-    <loc>https://www.example-homestay.com/rooms</loc>
-    <priority>0.9</priority>
+    <loc>https://hillsaromahomestay.netlify.app/rooms</loc>
   </url>
+
   <url>
-    <loc>https://www.example-homestay.com/gallery</loc>
-    <priority>0.6</priority>
+    <loc>https://hillsaromahomestay.netlify.app/gallery</loc>
   </url>
+
   <url>
-    <loc>https://www.example-homestay.com/location</loc>
-    <priority>0.8</priority>
+    <loc>https://hillsaromahomestay.netlify.app/location</loc>
   </url>
+
   <url>
-    <loc>https://www.example-homestay.com/contact</loc>
-    <priority>0.7</priority>
+    <loc>https://hillsaromahomestay.netlify.app/contact</loc>
   </url>
+
 </urlset>
